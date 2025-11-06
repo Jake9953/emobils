@@ -259,7 +259,8 @@ button {
     margin-left: auto!important;
 }
 .login_text {
-    
+    /* container for login links (kept for structure) */
+    display: block;
 }
 .login_text ul{
     margin: 0px;
@@ -441,11 +442,13 @@ button {
 }
 
 .image_main:hover .image_8 {
-    opacity: ;
+    /* dim the image when hovering so overlay text is visible */
+    opacity: 0.3;
 }
 
 .image_main:hover .text_main {
-    opacity: 5;
+    /* fully reveal the overlay text */
+    opacity: 1;
 }
 
 .image_main:hover .seemore_text {
@@ -802,6 +805,7 @@ select.form-control:not([size]):not([multiple]) {
     font-size: 18px;
     color: #393838;
     -webkit-appearance: none;
+    appearance: none;
     background-image: url(../images/down-arrow.png);
     background-repeat: no-repeat;
     background-size: 15px;
