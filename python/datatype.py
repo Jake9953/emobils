@@ -7,3 +7,7 @@ my_string = "Jake"
 my_bool = True
 
 print(type(my_int))
+
+my_dict = {"Name" : "Jake", "Age": 25}
+
+print(my_dict["Name"])
